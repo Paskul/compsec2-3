@@ -5,3 +5,6 @@ To run the program, please execute the following commands:
 Expected results:
 - Encrypted: 1434511641 (the decimal value for the first 64 bits of the binary string)
 - Decrypted: Computer Security is fun, but the course gets more challenging toward the end
+
+>> and we get the expected results!
+Pascal Sikorski and Gustavo Lucca worked together on this project
