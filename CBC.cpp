@@ -8,6 +8,7 @@ using namespace std;
 // The blocks has been padded and is already a vector of binary string
 // The key and IV are also binary strings
 
+// works
 string CBC_encryption(vector<string> blocks, string key, string IV) {
   string encrypted;
   vector<string> keys = key_gen(key);
@@ -24,6 +25,7 @@ string CBC_encryption(vector<string> blocks, string key, string IV) {
   return encrypted;
 }
 
+// works now
 string CBC_decryption(vector<string> blocks, string key, string IV) {
   string decrypted;
   vector<string> keys = key_gen(key);
